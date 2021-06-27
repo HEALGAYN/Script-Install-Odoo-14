@@ -6,11 +6,11 @@
 ##### 1. Update Linux:
 ```
 sudo apt update
-
+```
 ##### 2. Upgrade Linux:
 ```
 sudo apt upgrade
-
+```
 ##### 3. Download the script:
 ```
 sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/14.0/odoo_install.sh
