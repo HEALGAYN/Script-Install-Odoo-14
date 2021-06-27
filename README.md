@@ -3,11 +3,19 @@
 
 ## Installation procedure
 
-##### 1. Download the script:
+##### 1. Update Linux:
+```
+sudo apt update
+
+##### 2. Upgrade Linux:
+```
+sudo apt upgrade
+
+##### 3. Download the script:
 ```
 sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/14.0/odoo_install.sh
 ```
-##### 2. Modify the parameters as you wish.
+##### 4. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
 ```OE_USER``` will be the username for the system user.<br/>
 ```GENERATE_RANDOM_PASSWORD``` if this is set to ```True``` the script will generate a random password, if set to ```False```we'll set the password that is configured in ```OE_SUPERADMIN```. By default the value is ```True``` and the script will generate a random and secure password.<br/>
@@ -23,11 +31,11 @@ There are a few things you can configure, this is the most used list:<br/>
 ```INSTALL_NGINX``` and ```ENABLE_SSL``` must be set to ```True``` and the placeholder in ```ADMIN_EMAIL``` must be replaced with a valid email address for certbot installation<br/>
   _By enabling SSL though Let's Encrypt you agree to the following [policies](https://www.eff.org/code/privacy/policy)_ <br/>
 
-#### 3. Make the script executable
+#### 5. Make the script executable
 ```
 sudo chmod +x odoo_install.sh
 ```
-##### 4. Execute the script:
+##### 6. Execute the script:
 ```
 sudo ./odoo_install.sh
 ```
