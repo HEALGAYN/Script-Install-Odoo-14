@@ -13,7 +13,7 @@ sudo apt upgrade
 ```
 ##### 3. Download the script:
 ```
-sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/14.0/odoo_install.sh
+sudo wget https://raw.githubusercontent.com/HEALGAYN/Scripts-Install-Odoo-14/main/odoo_install_debian.sh
 ```
 ##### 4. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
